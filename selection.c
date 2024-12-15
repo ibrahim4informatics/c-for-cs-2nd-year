@@ -72,9 +72,13 @@ int main()
     scanf("%d", &n);
     readArray(t, n);
     printArray(t, n);
+
+    printf("\ntrie avec selection iterative\n");
+
     selectionSortIt(t, n);
     printArray(t, n);
 
+    printf("\ntrie avec selection recurssive\n");
     selectionSortRec(t, 0, n);
     printArray(t, n);
 
